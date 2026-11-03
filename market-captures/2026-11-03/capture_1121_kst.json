@@ -1,0 +1,56 @@
+{
+  "captured_at_utc": "2026-11-03T02:21:18Z",
+  "markets": {
+    "EUA": {
+      "status": "FAILED",
+      "reason": "host blocked by session network policy (curl connect_rejected; WebFetch ENOTFOUND)",
+      "url": "https://www.ice.com/products/197/EUA-Futures/data?marketId=8997105",
+      "source_text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trade_date": null,
+      "value": null,
+      "percent_change": null
+    },
+    "UKA": {
+      "status": "FAILED",
+      "reason": "host blocked by session network policy (curl connect_rejected; WebFetch ENOTFOUND)",
+      "url": "https://www.ice.com/products/80216150/UKA-Futures/data?marketId=7599535",
+      "source_text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trade_date": null,
+      "value": null,
+      "percent_change": null
+    },
+    "NZU": {
+      "status": "FAILED",
+      "reason": "host blocked by session network policy (curl connect_rejected; WebFetch ENOTFOUND)",
+      "url": "https://www.emstradepoint.co.nz/",
+      "source_text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trade_date": null,
+      "value": null,
+      "percent_change": null
+    },
+    "ACCU": {
+      "status": "FAILED",
+      "reason": "host blocked by session network policy (curl connect_rejected; WebFetch ENOTFOUND)",
+      "url": "https://coremarkets.co/resources/market-prices",
+      "source_text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trade_date": null,
+      "value": null,
+      "percent_change": null
+    },
+    "INVESTING_EUA": {
+      "status": "FAILED",
+      "reason": "host blocked by session network policy (curl connect_rejected; WebFetch ENOTFOUND)",
+      "url": "https://www.investing.com/commodities/carbon-emissions-historical-data",
+      "source_text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trade_date": null,
+      "value": null,
+      "percent_change": null
+    }
+  },
+  "investing_eua_rows": []
+}
