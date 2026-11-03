@@ -1,0 +1,56 @@
+{
+ "captured_at_utc": "2026-11-03T04:05:36Z",
+ "markets": {
+  "EUA": {
+   "status": "FAILED",
+   "url": "https://www.ice.com/products/197/EUA-Futures/data?marketId=8997105",
+   "source_text": "host blocked by session network allowlist (proxy connect_rejected / DNS ENOTFOUND)",
+   "sha256": "e781bfd7a4e6f1abaf30d7b41dfdd7f6eb2a0f38b80be4c5931b19f8ed318a58",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": null
+  },
+  "UKA": {
+   "status": "FAILED",
+   "url": "https://www.ice.com/products/80216150/UKA-Futures/data?marketId=7599535",
+   "source_text": "host blocked by session network allowlist (proxy connect_rejected / DNS ENOTFOUND)",
+   "sha256": "e781bfd7a4e6f1abaf30d7b41dfdd7f6eb2a0f38b80be4c5931b19f8ed318a58",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": null
+  },
+  "NZU": {
+   "status": "FAILED",
+   "url": "https://www.emstradepoint.co.nz/",
+   "source_text": "host blocked by session network allowlist (proxy connect_rejected / DNS ENOTFOUND)",
+   "sha256": "e781bfd7a4e6f1abaf30d7b41dfdd7f6eb2a0f38b80be4c5931b19f8ed318a58",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": null
+  },
+  "ACCU": {
+   "status": "FAILED",
+   "url": "https://coremarkets.co/resources/market-prices",
+   "source_text": "host blocked by session network allowlist (proxy connect_rejected / DNS ENOTFOUND)",
+   "sha256": "e781bfd7a4e6f1abaf30d7b41dfdd7f6eb2a0f38b80be4c5931b19f8ed318a58",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": null
+  },
+  "INVESTING_EUA": {
+   "status": "FAILED",
+   "url": "https://www.investing.com/commodities/carbon-emissions-historical-data",
+   "source_text": "host blocked by session network allowlist (proxy connect_rejected / DNS ENOTFOUND)",
+   "sha256": "e781bfd7a4e6f1abaf30d7b41dfdd7f6eb2a0f38b80be4c5931b19f8ed318a58",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": null
+  }
+ },
+ "investing_eua_rows": []
+}
