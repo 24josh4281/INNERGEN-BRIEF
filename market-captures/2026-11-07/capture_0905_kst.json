@@ -1,0 +1,162 @@
+{
+ "captured_at_utc": "2026-11-07T00:05:25Z",
+ "markets": {
+  "EUA": {
+   "status": "FAILED",
+   "url": "https://www.ice.com/products/197/EUA-Futures/data?marketId=8997105",
+   "source_text": "JS-rendered; curl HTML has no price data; WebFetch returned unsupported-browser notice",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": "FUTURES_LAST_TRADE",
+   "sha256": "495d0e38a1d5a48bf260f8bda06e02a76d6c1a64befb0c25bae570cfdfb5d0ce"
+  },
+  "UKA": {
+   "status": "FAILED",
+   "url": "https://www.ice.com/products/80216150/UKA-Futures/data?marketId=7599535",
+   "source_text": "JS-rendered; curl HTML has no price data; WebFetch returned unsupported-browser notice",
+   "trade_date": null,
+   "value": null,
+   "percent_change": null,
+   "basis": "FUTURES_LAST_TRADE",
+   "sha256": "495d0e38a1d5a48bf260f8bda06e02a76d6c1a64befb0c25bae570cfdfb5d0ce"
+  },
+  "NZU": {
+   "status": "OK",
+   "url": "https://www.emstradepoint.co.nz/",
+   "source_text": "Carbon Units – CP-NZU|06 Nov 2026|ECMI (Monthly Price Index)|$|49.74|NZU|▼|1.03|%|High 51.77|Low 49.74 || ECQI (Quarterly Price Index)|06 Nov 2026|$50.97|▼|0.1%",
+   "trade_date": "2026-11-06",
+   "value": 49.74,
+   "percent_change": -1.03,
+   "basis": "DAILY_INDEX",
+   "ecqi": {
+    "value": 50.97,
+    "percent_change": -0.1
+   },
+   "last_trade": null,
+   "sha256": "fba06fe4e4b83b1ebfbc86d518956a0bae423ed010b1a945a99f30d5c9db6101"
+  },
+  "ACCU": {
+   "status": "OK",
+   "url": "https://coremarkets.co/resources/market-prices",
+   "source_text": "Prices last updated end of day 05/11/2026|Last close|A$38.00|▲ 0.1%",
+   "trade_date": "2026-11-05",
+   "value": 38.0,
+   "percent_change": 0.1,
+   "basis": "SPOT_CLOSE",
+   "sha256": "4c9ef2294885b7c5532d87bc65c008e56abb7cd437bd802606accd1ead948d4c"
+  },
+  "INVESTING_EUA": {
+   "status": "OK",
+   "url": "https://www.investing.com/commodities/carbon-emissions-historical-data",
+   "source_text": "Nov 06, 2026 | 86.55 | 89.12 | 89.13 | 86.25 | 31.31K | -2.70% (via WebFetch summary; curl got HTTP 403)",
+   "trade_date": "2026-11-06",
+   "value": 86.55,
+   "percent_change": -2.7,
+   "basis": "FUTURES_SETTLEMENT",
+   "sha256": "e3598b74826441e1a8c5551d02a2a11689ff65f56ea42b2dad33ec80dd061540"
+  }
+ },
+ "investing_eua_rows": [
+  {
+   "date": "2026-11-06",
+   "price": 86.55,
+   "open": 89.12,
+   "high": 89.13,
+   "low": 86.25,
+   "vol": "31.31K",
+   "change_pct": "-2.70%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-11-05",
+   "price": 88.95,
+   "open": 90.58,
+   "high": 90.85,
+   "low": 88.65,
+   "vol": "26.86K",
+   "change_pct": "-1.34%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-11-04",
+   "price": 90.16,
+   "open": 90.23,
+   "high": 91.13,
+   "low": 89.85,
+   "vol": "25.96K",
+   "change_pct": "+0.26%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-11-03",
+   "price": 89.93,
+   "open": 90.39,
+   "high": 91.29,
+   "low": 89.75,
+   "vol": "28.77K",
+   "change_pct": "-0.65%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-11-02",
+   "price": 90.52,
+   "open": 89.03,
+   "high": 90.94,
+   "low": 88.63,
+   "vol": "29.18K",
+   "change_pct": "+1.49%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-10-30",
+   "price": 89.19,
+   "open": 89.1,
+   "high": 90.15,
+   "low": 88.83,
+   "vol": "19.65K",
+   "change_pct": "-0.01%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-10-29",
+   "price": 89.2,
+   "open": 88.91,
+   "high": 89.48,
+   "low": 88.14,
+   "vol": "19.07K",
+   "change_pct": "+0.11%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-10-28",
+   "price": 89.1,
+   "open": 88.0,
+   "high": 89.31,
+   "low": 87.87,
+   "vol": "26.46K",
+   "change_pct": "+1.19%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-10-27",
+   "price": 88.05,
+   "open": 88.26,
+   "high": 88.93,
+   "low": 87.6,
+   "vol": "20.00K",
+   "change_pct": "-0.16%",
+   "basis": "FUTURES_SETTLEMENT"
+  },
+  {
+   "date": "2026-10-26",
+   "price": 88.19,
+   "open": 86.3,
+   "high": 88.49,
+   "low": 86.29,
+   "vol": "25.31K",
+   "change_pct": "+2.24%",
+   "basis": "FUTURES_SETTLEMENT"
+  }
+ ]
+}
