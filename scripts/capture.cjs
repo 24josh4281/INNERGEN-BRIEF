@@ -86,7 +86,7 @@ async function iceRows(browser, url) {
   try {
     await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
     await page.waitForSelector('table tr', { timeout: 20000 }).catch(() => {});
-    return { rows: await page.$$eval('table tr', (trs) => trs.map((tr) => [...tr.children].map((c) => c.innerText.trim()))), blocked };
+    return { rows: await page.$$eval('table tr', (trs) => trs.map((tr) => [...tr.children].map((c) => c.innerText.replace(/\s+/g, ' ').trim()))), blocked };
   } finally { await page.close(); }
 }
 
